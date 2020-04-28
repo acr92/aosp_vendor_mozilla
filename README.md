@@ -18,7 +18,7 @@ http://archive.mozilla.org/pub/mobile/releases/
 Add this repository to the manifest file (check inside `${ANDROID_BUILD_TOP}/.repo/manifests/`):
 ```xml
 <remote name="github-blystad" fetch="https://github.com/Blystad/" />
-<project path="vendor/mozilla" name="aosp_vendor_mozilla" revision="master" remote="github-blystad">
+<project path="vendor/mozilla" name="aosp_vendor_mozilla" revision="master" remote="github-blystad" />
 ```
 
 Then add:
